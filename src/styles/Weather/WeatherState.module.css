@@ -1,0 +1,7 @@
+.weather-state {
+	display: flex;
+	align-items: center;
+	font-size: 2vw;
+	display: flex;
+	gap: 1.5rem;
+}
