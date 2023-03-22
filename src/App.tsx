@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./components/UI/NavBar";
+import WeatherDashboard from "./components/Weather/WeatherDashboard";
 
 function App() {
 	return (
@@ -10,7 +11,9 @@ function App() {
 					className="bg-slate-600 bg-opacity-30"
 				/>
 			</header>
-			<main></main>
+			<main>
+				<WeatherDashboard />
+			</main>
 		</div>
 	);
 }

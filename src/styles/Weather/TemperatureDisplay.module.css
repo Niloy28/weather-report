@@ -1,0 +1,37 @@
+.time-display {
+	margin: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.temp-display {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.real-temp {
+	display: flex;
+	font-size: 8vw;
+	padding-right: 2rem;
+	border-right: 2px solid grey;
+}
+
+.real-temp div {
+	font-size: 4vw;
+	margin-top: 1vh;
+}
+
+.feel-temp {
+	justify-self: center;
+	align-self: center;
+	font-size: 1.5vw;
+}
+
+.feel-temp div {
+	display: flex;
+	font-size: 4vw;
+}
+
+.feel-temp div div {
+	font-size: 2vw;
+	margin-top: 1vh;
+}

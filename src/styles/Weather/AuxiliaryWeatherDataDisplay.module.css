@@ -1,0 +1,13 @@
+.aux-weather {
+	text-align: start;
+	width: 50%;
+	height: 12vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.aux-weather div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}

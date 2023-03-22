@@ -1,0 +1,13 @@
+.today-weather {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	flex: 2 1 auto;
+}
+
+.today-weather:first-child {
+	flex-grow: 2;
+}
