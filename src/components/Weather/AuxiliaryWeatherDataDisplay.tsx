@@ -7,12 +7,21 @@ const AuxiliaryWeatherDataDisplay: React.FC<AuxiliaryWeatherData> = (props) => {
 	return (
 		<div className={styles["aux-weather"]}>
 			<div>
-				<div>Humidity: {props.humidity}%</div>
-				<div>Pressure: {props.pressure}mbar</div>
+				<p>Humidity:</p>
+				<p>{props.humidity}%</p>
 			</div>
 			<div>
-				<div>Wind Speed: {props.windSpeed} mph</div>
-				<div>Wind Angle: {props.windAngle} deg</div>
+				<p>Pressure:</p>
+				<p>{props.pressure} mbar</p>
+			</div>
+
+			<div>
+				<p>Wind Speed:</p>
+				<p>{props.windSpeed} mph</p>
+			</div>
+			<div>
+				<p>Wind Angle:</p>
+				<p>{props.windAngle} deg</p>
 			</div>
 		</div>
 	);

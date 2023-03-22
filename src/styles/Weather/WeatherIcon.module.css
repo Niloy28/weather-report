@@ -1,0 +1,9 @@
+.weather-icon {
+	width: 60%;
+}
+
+@media (max-width: 480px) {
+	.weather-icon {
+		width: fit-content;
+	}
+}

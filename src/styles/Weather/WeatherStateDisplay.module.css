@@ -1,6 +1,15 @@
 .weather-state {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	font-size: 2vw;
-	display: flex;
+}
+
+@media (max-width: 480px) {
+	.weather-state {
+		flex-direction: column;
+	}
+	.weather-state div {
+		font-size: xx-large;
+	}
 }

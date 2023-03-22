@@ -7,3 +7,10 @@
 	width: 98vw;
 	height: 89vh;
 }
+
+@media (max-width: 480px) {
+	.dashboard {
+		width: 93vw;
+		height: 89vh;
+	}
+}

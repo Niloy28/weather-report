@@ -2,12 +2,26 @@
 	text-align: start;
 	width: 50%;
 	height: 12vh;
-	display: flex;
-	justify-content: space-around;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2rem;
 }
 
 .aux-weather div {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.aux-weather div p {
+	justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+	.aux-weather {
+		display: inline;
+		width: 100%;
+		height: 15vh;
+		text-align: center;
+	}
 }

@@ -11,3 +11,11 @@
 .today-weather:first-child {
 	flex-grow: 2;
 }
+
+@media (max-width: 480px) {
+	.today-weather {
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 2rem;
+	}
+}

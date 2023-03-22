@@ -5,6 +5,7 @@
 
 .temp-display {
 	display: flex;
+	justify-content: center;
 	gap: 1.5rem;
 }
 
@@ -34,4 +35,22 @@
 .feel-temp div div {
 	font-size: 2vw;
 	margin-top: 1vh;
+}
+
+@media (max-width: 480px) {
+	.temp-display {
+		display: flex;
+	}
+
+	.feel-temp {
+		font-size: medium;
+	}
+
+	.feel-temp div {
+		font-size: x-large;
+	}
+
+	.feel-temp div div {
+		font-weight: 500;
+	}
 }
