@@ -20,7 +20,7 @@ const TemperatureDisplay: React.FC<TemperatureData> = (props) => {
 					<p>Feels like</p>
 					<div>
 						{props.feelTemperature}
-						<div>°C</div>
+						<p>°C</p>
 					</div>
 				</div>
 			</div>

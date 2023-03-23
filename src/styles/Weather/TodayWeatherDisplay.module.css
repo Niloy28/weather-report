@@ -5,19 +5,20 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 1rem;
+	padding: 0 1rem;
 	flex: 2 1 auto;
 }
 
 .weather-main {
-	margin-bottom: 1rem;
-	padding: 2.5rem;
+	margin: 1rem 0 0;
+	padding: 0 2.5rem 1rem;
 }
 
 @media (max-width: 480px) {
 	.today-weather {
 		height: 80svh;
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: center;
+		gap: 1rem;
 	}
 }
