@@ -11,30 +11,34 @@
 
 .real-temp {
 	display: flex;
-	font-size: 8vw;
+	font-size: 10rem;
 	padding-right: 2rem;
 	border-right: 2px solid grey;
 }
 
 .real-temp div {
-	font-size: 4vw;
-	margin-top: 1vh;
+	font-size: 5rem;
+	margin-top: 1.75rem;
 }
 
 .feel-temp {
 	justify-self: center;
 	align-self: center;
-	font-size: 1.5vw;
+	font-size: 1.5rem;
+}
+
+.feel-temp p {
+	text-align: start;
 }
 
 .feel-temp div {
 	display: flex;
-	font-size: 4vw;
+	font-size: 4rem;
 }
 
 .feel-temp div div {
-	font-size: 2vw;
-	margin-top: 1vh;
+	font-size: 2rem;
+	margin-top: 0.75rem;
 }
 
 @media (max-width: 480px) {
@@ -42,15 +46,28 @@
 		display: flex;
 	}
 
+	.real-temp {
+		font-size: 5rem;
+	}
+
+	.real-temp div {
+		font-size: 3rem;
+		margin-top: 0.75rem;
+	}
+
 	.feel-temp {
-		font-size: medium;
+		font-size: large;
+	}
+
+	.feel-temp p {
+		font-size: 1rem;
 	}
 
 	.feel-temp div {
-		font-size: x-large;
+		font-size: 3rem;
 	}
 
 	.feel-temp div div {
-		font-weight: 500;
+		font-size: 1.25rem;
 	}
 }

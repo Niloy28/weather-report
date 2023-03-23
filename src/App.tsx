@@ -8,12 +8,9 @@ function App() {
 	return (
 		<div className={styles["app"]}>
 			<header className={styles["app-header"]}>
-				<NavBar
-					heading="Weather Report"
-					className="bg-slate-600 bg-opacity-30"
-				/>
+				<NavBar heading="Weather Report" className={styles["navbar"]} />
 			</header>
-			<main>
+			<main className={styles["app-main"]}>
 				<WeatherDashboard />
 			</main>
 		</div>

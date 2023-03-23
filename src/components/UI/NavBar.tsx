@@ -13,7 +13,9 @@ const NavBar: React.FC<NavBarProps> = (props) => {
 	return (
 		<div className={`navbar ${props.className}`}>
 			<div className="flex-1 justify-center">
-				<h1 className="text-3xl font-semibold">{props.heading}</h1>
+				<h1 className="sm:text-lg lg:text-3xl font-semibold">
+					{props.heading}
+				</h1>
 			</div>
 			<div className="flex-none">
 				<label className="label cursor-pointer mr-5">

@@ -2,10 +2,11 @@ import React from "react";
 import AuxiliaryWeatherData from "../../types/AuxiliaryWeatherData";
 
 import styles from "../../styles/Weather/AuxiliaryWeatherDataDisplay.module.css";
+import Card from "../UI/Card";
 
 const AuxiliaryWeatherDataDisplay: React.FC<AuxiliaryWeatherData> = (props) => {
 	return (
-		<div className={styles["aux-weather"]}>
+		<Card className={styles["aux-weather"]}>
 			<div>
 				<p>Humidity:</p>
 				<p>{props.humidity}%</p>
@@ -23,7 +24,7 @@ const AuxiliaryWeatherDataDisplay: React.FC<AuxiliaryWeatherData> = (props) => {
 				<p>Wind Angle:</p>
 				<p>{props.windAngle} deg</p>
 			</div>
-		</div>
+		</Card>
 	);
 };
 

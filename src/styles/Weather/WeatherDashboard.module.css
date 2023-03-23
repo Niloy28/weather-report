@@ -2,15 +2,13 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	margin: 1rem;
-	padding: 1rem;
-	width: 98vw;
-	height: 89vh;
+	width: 90%;
+	height: 90svh;
 }
 
 @media (max-width: 480px) {
 	.dashboard {
-		width: 93vw;
-		height: 89vh;
+		width: 90%;
+		height: 90svh;
 	}
 }

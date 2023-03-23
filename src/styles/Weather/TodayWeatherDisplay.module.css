@@ -1,4 +1,5 @@
 .today-weather {
+	width: 100%;
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -8,14 +9,15 @@
 	flex: 2 1 auto;
 }
 
-.today-weather:first-child {
-	flex-grow: 2;
+.weather-main {
+	margin-bottom: 1rem;
+	padding: 2.5rem;
 }
 
 @media (max-width: 480px) {
 	.today-weather {
+		height: 80svh;
 		flex-direction: column;
 		justify-content: flex-start;
-		gap: 2rem;
 	}
 }

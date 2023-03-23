@@ -7,6 +7,7 @@ import TemperatureDisplay from "./TemperatureDisplay";
 
 import styles from "../../styles/Weather/TodayWeatherDisplay.module.css";
 import AuxiliaryWeatherDataDisplay from "./AuxiliaryWeatherDataDisplay";
+import Card from "../UI/Card";
 
 const TodayWeatherDisplay = () => {
 	// TODO: use geocoding API to get location
@@ -52,10 +53,10 @@ const TodayWeatherDisplay = () => {
 
 	return (
 		<div className={styles["today-weather"]}>
-			<div className="m-2 p-4">
+			<Card className={styles["weather-main"]}>
 				<WeatherStateDisplay {...data.weatherStateData} />
 				<TemperatureDisplay {...data.temperatureData} />
-			</div>
+			</Card>
 			<AuxiliaryWeatherDataDisplay {...data.auxiliaryWeatherData} />
 		</div>
 	);
