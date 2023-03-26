@@ -15,11 +15,10 @@ const useFetch = <T>(requestInfo: Request, transform?: (data: any) => T) => {
       } else {
         setData(data);
       }
-      setIsLoading(false);
     } else {
-      setIsLoading(false);
       setFetchError(response.statusText);
     }
+    setIsLoading(false);
   }, [requestInfo, transform]);
 
   useEffect(() => {
